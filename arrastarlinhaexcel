@@ -1,7 +1,7 @@
 Sub ArrastarFormula()
 Dim primeiranula As Long
 
-primieranula = ActiveSheet.Range("H5").End(xlDown).Offset(1, 0).Row
+primeiranula = ActiveSheet.Range("H5").End(xlDown).Offset(1, 0).Row
 Range("A5:H5").AutoFill Destination:=Range("A5:H" & primeiranula), Type:=xlFillDefault
 
 End Sub
